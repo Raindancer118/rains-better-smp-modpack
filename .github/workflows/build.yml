@@ -1,0 +1,50 @@
+name: Build modpack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "modlist.json"
+      - "scripts/build_pack.py"
+      - ".github/workflows/build.yml"
+  workflow_dispatch: {}
+  schedule:
+    # weekly rebuild so mod updates get picked up even without a repo change
+    - cron: "0 4 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Build .mrpack and dropin zips
+        run: python scripts/build_pack.py --pack-version "${{ github.run_number }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rains-better-smp-modpack
+          path: |
+            dist/rains-better-smp-modpack.mrpack
+            dist/rains-better-smp-modpack-client.zip
+            dist/rains-better-smp-modpack-server.zip
+            dist/resolved-versions.json
+          retention-days: 30
+
+      - name: Create release
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Build ${{ github.run_number }}
+          files: |
+            dist/rains-better-smp-modpack.mrpack
+            dist/rains-better-smp-modpack-client.zip
+            dist/rains-better-smp-modpack-server.zip
+            dist/resolved-versions.json
