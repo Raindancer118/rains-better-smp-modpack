@@ -25,6 +25,53 @@ HEADERS = {"User-Agent": "rains-better-smp-modpack/1.0 (github.com/Raindancer118
 
 ROOT = Path(__file__).resolve().parent.parent
 MODLIST_PATH = ROOT / "modlist.json"
+README_PATH = ROOT / "README.md"
+MODLIST_START = "<!-- MODLIST:START -->"
+MODLIST_END = "<!-- MODLIST:END -->"
+
+# Order = order of the headings in the README. Slugs that aren't listed here
+# (e.g. a newly pulled-in required dependency) automatically land under "Other".
+CATEGORIES = {
+    "Exploration & Structures": [
+        "biomes-o-plenty", "terralith", "repurposed-structures-forge", "yungs-api",
+        "yungs-better-nether-fortresses", "yungs-better-ocean-monuments", "yungs-better-dungeons",
+        "yungs-better-mineshafts", "yungs-better-jungle-temples", "yungs-better-end-island",
+        "yungs-better-strongholds", "yungs-better-witch-huts", "yungs-better-desert-temples",
+        "yungs-bridges", "yungs-extras", "dungeons-and-taverns", "towns-and-towers", "trek",
+    ],
+    "Farmer's Delight Family": [
+        "farmers-delight", "chefs-delight", "veggies-delight", "ends-delight", "expanded-delight",
+        "my-nethers-delight", "rustic-delight", "fruits-delight", "extradelight", "more-delight",
+        "the-lost-castle", "oceans-delight",
+    ],
+    "Ocean & Creatures": ["hybrid-aquatic", "ecologics"],
+    "Performance": [
+        "embeddium", "modernfix", "ferrite-core", "immediatelyfast", "entityculling",
+        "cull-leaves", "dynamic-fps", "distanthorizons",
+    ],
+    "Storage & Inventory": [
+        "sophisticated-backpacks", "sophisticated-storage", "inventory-profiles-next",
+        "mouse-tweaks", "veinminer",
+    ],
+    "Navigation & Travel": [
+        "xaeros-minimap", "xaeros-world-map", "xaeros-minimap-world-map-waystones-compatibility-forge",
+        "waystones", "paragliders", "elytra-slot", "elytra-trims", "elytra-trims-extensions",
+        "boat-item-view", "just-zoom",
+    ],
+    "Visuals & Social": [
+        "3dskinlayers", "entitytexturefeatures", "entity-model-features", "not-enough-animations",
+        "chat-heads", "handcrafted", "mmmmmmmmmmmm", "continuity", "sound-physics-remastered",
+        "simple-voice-chat",
+    ],
+    "Building & Decoration": ["macaws-bridges", "chipped"],
+    "Utility": ["jei", "open-parties-and-claims", "comforts", "appleskin"],
+    "Libraries (required dependencies)": [
+        "balm", "athena-ctm", "biolith", "cloth-config", "connector", "cristel-lib", "curios",
+        "delight-lib", "forgified-fabric-api", "geckolib", "glitchcore", "konkrete",
+        "kotlin-for-forge", "kotlin-lang-forge", "libipn", "lithostitched", "midnightlib",
+        "moonlight", "resourceful-lib", "sophisticated-core", "terrablender",
+    ],
+}
 
 
 def api_get(path: str, **params):
@@ -163,6 +210,45 @@ def build_dropin_zip(resolved: dict[str, dict], side: str, out_path: Path) -> No
             z.writestr(f"mods/{primary['filename']}", jar_bytes)
 
 
+def build_categorized_modlist_markdown(resolved: dict[str, dict]) -> str:
+    by_slug = {entry["project"]["slug"]: entry for entry in resolved.values()}
+    seen: set[str] = set()
+    lines = []
+
+    for category, slugs in CATEGORIES.items():
+        cat_slugs = [s for s in slugs if s in by_slug]
+        if not cat_slugs:
+            continue
+        seen.update(cat_slugs)
+        lines.append(f"\n### {category}\n")
+        lines.append("| Mod | Version |")
+        lines.append("|---|---|")
+        for slug in cat_slugs:
+            entry = by_slug[slug]
+            title = entry["project"]["title"]
+            version_number = entry["version"]["version_number"]
+            lines.append(f"| [{title}](https://modrinth.com/mod/{slug}) | `{version_number}` |")
+
+    leftover = sorted(set(by_slug) - seen)
+    if leftover:
+        lines.append("\n### Other\n")
+        lines.append("| Mod | Version |")
+        lines.append("|---|---|")
+        for slug in leftover:
+            entry = by_slug[slug]
+            lines.append(f"| [{entry['project']['title']}](https://modrinth.com/mod/{slug}) | `{entry['version']['version_number']}` |")
+
+    return "\n".join(lines) + "\n"
+
+
+def update_readme_modlist(resolved: dict[str, dict]) -> None:
+    content = README_PATH.read_text()
+    start = content.index(MODLIST_START) + len(MODLIST_START)
+    end = content.index(MODLIST_END)
+    modlist_md = build_categorized_modlist_markdown(resolved)
+    README_PATH.write_text(content[:start] + "\n" + modlist_md + content[end:])
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", type=Path, default=ROOT / "dist")
@@ -215,6 +301,9 @@ def main() -> None:
 
     build_dropin_zip(resolved, "server", args.output_dir / "rains-better-smp-modpack-server.zip")
     print("Built server dropin zip")
+
+    update_readme_modlist(resolved)
+    print("Updated README.md modlist section")
 
 
 if __name__ == "__main__":
