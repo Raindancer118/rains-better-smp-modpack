@@ -41,7 +41,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Farmer's Delight](https://modrinth.com/mod/farmers-delight) | `1.21.1-1.3.3` |
+| [Farmer's Delight](https://modrinth.com/mod/farmers-delight) | `1.21.1-1.3.4` |
 | [Chef's Delight - Farmer's Delight Villagers](https://modrinth.com/mod/chefs-delight) | `1.0.5` |
 | [Veggies Delight (A Farmer's Delight Add-on)](https://modrinth.com/mod/veggies-delight) | `1.9.3` |
 | [End's Delight](https://modrinth.com/mod/ends-delight) | `2.6.1+neoforge.1.21.1` |
@@ -66,9 +66,9 @@ aren't listed explicitly.
 | Mod | Version |
 |---|---|
 | [Embeddium](https://modrinth.com/mod/embeddium) | `1.0.15+mc1.21.1` |
-| [ModernFix](https://modrinth.com/mod/modernfix) | `5.27.20+mc1.21.1` |
+| [ModernFix](https://modrinth.com/mod/modernfix) | `5.27.24+mc1.21.1` |
 | [FerriteCore](https://modrinth.com/mod/ferrite-core) | `7.0.3-neoforge` |
-| [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | `1.6.12+1.21.1-neoforge` |
+| [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | `1.6.13+1.21.1-neoforge` |
 | [Entity Culling](https://modrinth.com/mod/entityculling) | `1.10.5` |
 | [Cull Leaves](https://modrinth.com/mod/cull-leaves) | `4.1.1+1.21.1-neoforge` |
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | `3.11.4` |
@@ -125,7 +125,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.44.0.405` |
+| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.51.0.417` |
 | [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims) | `neoforge-1.21.1-0.30.3` |
 | [Comforts](https://modrinth.com/mod/comforts) | `9.0.5+1.21.1` |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | `3.0.9+mc1.21` |
@@ -151,7 +151,7 @@ aren't listed explicitly.
 | [libIPN](https://modrinth.com/mod/libipn) | `neoforge-1.21.1-6.6.3` |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0+beta4-neoforge-21.1` |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | `1.9.3+1.21.1-neoforge` |
-| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.5.0` |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.5.2` |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | `3.0.12` |
 | [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.4.90.2299` |
 | [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
