@@ -21,7 +21,7 @@ aren't listed explicitly.
 | [Biomes O' Plenty](https://modrinth.com/mod/biomes-o-plenty) | `21.1.0.14` |
 | [Terralith](https://modrinth.com/mod/terralith) | `2.6.2` |
 | [Repurposed Structures - Neoforge/Forge](https://modrinth.com/mod/repurposed-structures-forge) | `7.5.22+1.21.1-neoforge` |
-| [YUNG's API](https://modrinth.com/mod/yungs-api) | `1.21.1-NeoForge-5.1.8` |
+| [YUNG's API](https://modrinth.com/mod/yungs-api) | `1.21.1-NeoForge-5.1.9` |
 | [YUNG's Better Nether Fortresses](https://modrinth.com/mod/yungs-better-nether-fortresses) | `1.21.1-NeoForge-3.1.5` |
 | [YUNG's Better Ocean Monuments](https://modrinth.com/mod/yungs-better-ocean-monuments) | `1.21.1-NeoForge-4.1.2` |
 | [YUNG's Better Dungeons](https://modrinth.com/mod/yungs-better-dungeons) | `1.21.1-NeoForge-5.1.4` |
@@ -58,7 +58,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `mc1.21.1-1.7.0-neoforge` |
+| [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `mc1.21.1-1.7.2-neoforge` |
 | [Ecologics](https://modrinth.com/mod/ecologics) | `2.3.7-NeoForge` |
 
 ### Performance
@@ -69,10 +69,10 @@ aren't listed explicitly.
 | [ModernFix](https://modrinth.com/mod/modernfix) | `5.27.24+mc1.21.1` |
 | [FerriteCore](https://modrinth.com/mod/ferrite-core) | `7.0.3-neoforge` |
 | [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | `1.6.14+1.21.1-neoforge` |
-| [Entity Culling](https://modrinth.com/mod/entityculling) | `1.10.5` |
+| [Entity Culling](https://modrinth.com/mod/entityculling) | `1.11.1` |
 | [Cull Leaves](https://modrinth.com/mod/cull-leaves) | `4.1.1+1.21.1-neoforge` |
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | `3.11.4` |
-| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | `3.2.0-b-1.21.1` |
+| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | `3.3.1-1.21.1` |
 
 ### Storage & Inventory
 
@@ -103,16 +103,16 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | `1.11.2` |
-| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | `7.2.1-neoforge-1.21` |
-| [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | `3.3.5-neoforge-1.21` |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `1.12.4` |
+| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | `1.11.3` |
+| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | `7.2.4-neoforge-1.21` |
+| [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | `3.3.9-neoforge-1.21` |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `1.12.6` |
 | [Chat Heads](https://modrinth.com/mod/chat-heads) | `0.15.7` |
 | [Handcrafted](https://modrinth.com/mod/handcrafted) | `4.0.3` |
-| [MmmMmmMmmMmm](https://modrinth.com/mod/mmmmmmmmmmmm) | `1.21-2.1.1` |
+| [MmmMmmMmmMmm](https://modrinth.com/mod/mmmmmmmmmmmm) | `1.21-2.1.2` |
 | [Continuity](https://modrinth.com/mod/continuity) | `3.0.0+1.21.neoforge` |
 | [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | `neoforge-1.21.1-1.5.1` |
-| [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | `neoforge-1.21.1-2.6.23` |
+| [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | `neoforge-1.21.1-2.6.24` |
 
 ### Building & Decoration
 
@@ -125,7 +125,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.56.0.438` |
+| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.57.0.445` |
 | [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims) | `neoforge-1.21.1-0.31.6` |
 | [Comforts](https://modrinth.com/mod/comforts) | `9.0.5+1.21.1` |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | `3.0.9+mc1.21` |
@@ -143,15 +143,15 @@ aren't listed explicitly.
 | [Curios API](https://modrinth.com/mod/curios) | `9.5.1+1.21.1` |
 | [Delight Lib](https://modrinth.com/mod/delight-lib) | `26.05.18-1.21-neoforge` |
 | [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | `0.116.15+2.3.5+1.21.1` |
-| [Geckolib](https://modrinth.com/mod/geckolib) | `4.9.2` |
+| [Geckolib](https://modrinth.com/mod/geckolib) | `4.9.3` |
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | `2.1.0.2` |
 | [Konkrete](https://modrinth.com/mod/konkrete) | `1.9.9-1.21-neoforge` |
 | [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | `5.12.0` |
-| [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.13.0-k2.4.20-3.0+neoforge` |
+| [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.14.1-k2.4.20-3.0+neoforge` |
 | [libIPN](https://modrinth.com/mod/libipn) | `neoforge-1.21.1-6.6.3` |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0+beta6-neoforge-21.1` |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | `1.9.3+1.21.1-neoforge` |
-| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.6.4` |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.6.6` |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | `3.0.12` |
 | [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.5.1.2341` |
 | [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
@@ -162,7 +162,7 @@ aren't listed explicitly.
 |---|---|
 | [Caelus API](https://modrinth.com/mod/caelus) | `7.0.1+1.21.1` |
 | [Hybrid API](https://modrinth.com/mod/hybrid-api) | `mc1.21.1-1.1.0-neoforge` |
-| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.5.7` |
+| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.6.3` |
 <!-- MODLIST:END -->
 
 ## Installation
