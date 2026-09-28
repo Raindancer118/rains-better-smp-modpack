@@ -58,7 +58,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `mc1.21.1-1.7.2-neoforge` |
+| [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `mc1.21.1-1.7.3-neoforge` |
 | [Ecologics](https://modrinth.com/mod/ecologics) | `2.3.7-NeoForge` |
 
 ### Performance
@@ -69,17 +69,17 @@ aren't listed explicitly.
 | [ModernFix](https://modrinth.com/mod/modernfix) | `5.27.24+mc1.21.1` |
 | [FerriteCore](https://modrinth.com/mod/ferrite-core) | `7.0.3-neoforge` |
 | [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | `1.6.14+1.21.1-neoforge` |
-| [Entity Culling](https://modrinth.com/mod/entityculling) | `1.11.1` |
+| [Entity Culling](https://modrinth.com/mod/entityculling) | `1.11.2` |
 | [Cull Leaves](https://modrinth.com/mod/cull-leaves) | `4.1.1+1.21.1-neoforge` |
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | `3.11.4` |
-| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | `3.3.1-1.21.1` |
+| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | `3.3.2-1.21.1` |
 
 ### Storage & Inventory
 
 | Mod | Version |
 |---|---|
-| [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) | `1.21.1-3.26.3.2158` |
-| [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) | `1.21.1-1.5.91.2127` |
+| [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) | `1.21.1-3.26.5.2171` |
+| [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) | `1.21.1-1.6.0.2136` |
 | [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) | `neoforge-1.21.1-2.2.5` |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | `1.21-2.26.1-neoforge` |
 | [VeinMiner](https://modrinth.com/mod/veinminer) | `2.11.2` |
@@ -91,7 +91,7 @@ aren't listed explicitly.
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | `neoforge-1.21.1-26.5.0` |
 | [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | `neoforge-1.21.1-1.46.0` |
 | [Xaero's Minimap & World Map - Waystones Compatibility](https://modrinth.com/mod/xaeros-minimap-world-map-waystones-compatibility-forge) | `2.1.0` |
-| [Waystones](https://modrinth.com/mod/waystones) | `21.1.45+neoforge-1.21.1` |
+| [Waystones](https://modrinth.com/mod/waystones) | `21.1.46+neoforge-1.21.1` |
 | [Paragliders](https://modrinth.com/mod/paragliders) | `21.1.5` |
 | [Elytra Slot](https://modrinth.com/mod/elytra-slot) | `9.0.2+1.21.1` |
 | [Elytra Trims](https://modrinth.com/mod/elytra-trims) | `3.10.0` |
@@ -125,7 +125,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.57.0.445` |
+| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.57.0.449` |
 | [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims) | `neoforge-1.21.1-0.31.6` |
 | [Comforts](https://modrinth.com/mod/comforts) | `9.0.5+1.21.1` |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | `3.0.9+mc1.21` |
@@ -134,7 +134,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Balm](https://modrinth.com/mod/balm) | `21.0.65+neoforge-1.21.1` |
+| [Balm](https://modrinth.com/mod/balm) | `21.0.66+neoforge-1.21.1` |
 | [Athena](https://modrinth.com/mod/athena-ctm) | `4.0.6` |
 | [Biolith](https://modrinth.com/mod/biolith) | `3.0.14` |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | `15.0.140+neoforge` |
@@ -149,11 +149,11 @@ aren't listed explicitly.
 | [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | `5.12.0` |
 | [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.14.1-k2.4.20-3.0+neoforge` |
 | [libIPN](https://modrinth.com/mod/libipn) | `neoforge-1.21.1-6.6.3` |
-| [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0+beta6-neoforge-21.1` |
+| [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0-neoforge-21.1` |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | `1.9.3+1.21.1-neoforge` |
-| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.6.6` |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.7.0` |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | `3.0.12` |
-| [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.5.1.2341` |
+| [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.5.2.2343` |
 | [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
 
 ### Other
@@ -161,8 +161,8 @@ aren't listed explicitly.
 | Mod | Version |
 |---|---|
 | [Caelus API](https://modrinth.com/mod/caelus) | `7.0.1+1.21.1` |
-| [Hybrid API](https://modrinth.com/mod/hybrid-api) | `mc1.21.1-1.1.0-neoforge` |
-| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.6.3` |
+| [Hybrid API [HAPI]](https://modrinth.com/mod/hybrid-api) | `mc1.21.1-1.1.2-neoforge` |
+| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.6.5` |
 <!-- MODLIST:END -->
 
 ## Installation
