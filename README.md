@@ -49,7 +49,7 @@ aren't listed explicitly.
 | [My Nether's Delight](https://modrinth.com/mod/my-nethers-delight) | `1.10.4.1` |
 | [Rustic Delight](https://modrinth.com/mod/rustic-delight) | `1.7.1` |
 | [Fruits Delight](https://modrinth.com/mod/fruits-delight) | `1.2.14` |
-| [ExtraDelight](https://modrinth.com/mod/extradelight) | `2.6.6` |
+| [ExtraDelight](https://modrinth.com/mod/extradelight) | `2.7` |
 | [More Delight (for Farmer's Delight)](https://modrinth.com/mod/more-delight) | `26.05.20a-1.21-neoforge` |
 | [The Lost Castle](https://modrinth.com/mod/the-lost-castle) | `2.1.0` |
 | [Ocean's Delight](https://modrinth.com/mod/oceans-delight) | `1.0.4` |
@@ -59,7 +59,7 @@ aren't listed explicitly.
 | Mod | Version |
 |---|---|
 | [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `mc1.21.1-1.7.4-neoforge` |
-| [Ecologics](https://modrinth.com/mod/ecologics) | `2.3.8-NeoForge` |
+| [Ecologics](https://modrinth.com/mod/ecologics) | `2.3.10_1-NeoForge` |
 
 ### Performance
 
@@ -78,8 +78,8 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) | `1.21.1-3.26.19.2243` |
-| [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) | `1.21.1-1.6.13.2216` |
+| [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) | `1.21.1-3.26.21.2249` |
+| [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) | `1.21.1-1.6.16.2222` |
 | [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) | `neoforge-1.21.1-2.2.5` |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | `1.21-2.26.1-neoforge` |
 | [VeinMiner](https://modrinth.com/mod/veinminer) | `2.11.2` |
@@ -104,7 +104,7 @@ aren't listed explicitly.
 | Mod | Version |
 |---|---|
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | `1.11.4` |
-| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | `7.2.6-neoforge-1.21` |
+| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | `7.2.7-neoforge-1.21` |
 | [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | `3.3.12-neoforge-1.21` |
 | [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `1.12.7` |
 | [Chat Heads](https://modrinth.com/mod/chat-heads) | `0.15.7` |
@@ -134,7 +134,7 @@ aren't listed explicitly.
 
 | Mod | Version |
 |---|---|
-| [Balm](https://modrinth.com/mod/balm) | `21.0.66+neoforge-1.21.1` |
+| [Balm](https://modrinth.com/mod/balm) | `21.0.67+neoforge-1.21.1` |
 | [Athena](https://modrinth.com/mod/athena-ctm) | `4.0.6` |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | `15.0.140+neoforge` |
 | [Sinytra Connector](https://modrinth.com/mod/connector) | `2.0.0-beta.17+1.21.1` |
@@ -146,13 +146,13 @@ aren't listed explicitly.
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | `2.1.0.2` |
 | [Konkrete](https://modrinth.com/mod/konkrete) | `1.9.9-1.21-neoforge` |
 | [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | `5.12.0` |
-| [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.17.0-k2.4.21-3.0+neoforge` |
+| [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.18.0-k2.4.21-3.0+neoforge` |
 | [libIPN](https://modrinth.com/mod/libipn) | `neoforge-1.21.1-6.6.3` |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.1-neoforge-21.1` |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | `1.10.0+1.21.1-neoforge` |
-| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.7.2` |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.8.3` |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | `3.0.12` |
-| [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.5.23.2446` |
+| [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | `1.21.1-1.5.32.2464` |
 | [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
 
 ### Other
@@ -161,7 +161,7 @@ aren't listed explicitly.
 |---|---|
 | [Caelus API](https://modrinth.com/mod/caelus) | `7.0.1+1.21.1` |
 | [Hybrid API [HAPI]](https://modrinth.com/mod/hybrid-api) | `mc1.21.1-1.1.3-neoforge` |
-| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.6.10` |
+| [MezzConfig](https://modrinth.com/mod/mezzconfig) | `0.6.11` |
 <!-- MODLIST:END -->
 
 ## Installation
